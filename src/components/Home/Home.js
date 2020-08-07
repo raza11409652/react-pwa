@@ -51,7 +51,8 @@ class Home extends Component{
                 <div className="header">
                     <div className="display">HELLO</div>
                 </div>
-                {
+               <div className="row">
+               {
                     this.state.records.map(
                         x=>(
                         <div className="col-lg-6" key={x.id}>
@@ -65,6 +66,7 @@ class Home extends Component{
                         )
                     )
                 }
+               </div>
               
                 
 
