@@ -10,7 +10,7 @@ const registerService = (data)=>{
     formData.append("date"  ,date);
     formData.append("gender" , gender) ;
      return new Promise((resolve , reject)=>{
-         axios.post('hhttp://18.224.211.14/react-pwa-api/v1/register.php' , 
+         axios.post('https://myfod.in/react-pwa-api/v1/register.php' , 
          formData
          )
          .then((responseJson)=>{

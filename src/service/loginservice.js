@@ -6,7 +6,7 @@ const loginService = (data)=>{
     formData.append("loginId" , loginId);
     formData.append("password" , password);
      return new Promise((resolve , reject)=>{
-         axios.post('http://18.224.211.14/react-pwa-api/v1/login.php' , 
+         axios.post('https://myfod.in/react-pwa-api/v1/login.php' , 
          formData
          )
          .then((responseJson)=>{
